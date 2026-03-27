@@ -85,6 +85,9 @@ extern FontDef_t Font_16x26;
 
 // -------------------------------------------------------------------------
 // Font: Inter Regular
+// Inter Regular 5x7 font
+extern FontDef_t Font_Inter_Regular_5x7;
+
 // Inter Regular 7x10 font
 extern FontDef_t Font_Inter_Regular_7x10;
 // -------------------------------------------------------------------------
