@@ -38,6 +38,7 @@ Available Fonts
 			5x7
 			6x8
 			7x10
+			11x18
 
 ------------------------------------------------------------------------- */
 
@@ -95,6 +96,9 @@ extern FontDef_t Font_Inter_Regular_6x8;
 
 // Inter Regular 7x10 font
 extern FontDef_t Font_Inter_Regular_7x10;
+
+// Inter Regular 11x18 font
+extern FontDef_t Font_Inter_Regular_11x18;
 // -------------------------------------------------------------------------
 
 
