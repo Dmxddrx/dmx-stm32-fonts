@@ -8,9 +8,13 @@ This library provides a clean, ready-to-use set of `uint16_t` row-major font arr
 
 * **2 Font Styles:** Default and Inter Regular (More styles coming in future updates).
 * **5 Text Sizes:** 5x7, 6x8, 7x10, 11x18, 16x26.
-* **Format:** Data is structured as `uint16_t` row-major arrays (MSB = leftmost pixel), ready to drop into custom rendering engines.
 
-## 🛠️ Usage
+## Data Origin & Architecture
+
+* **Format:** Original column-major font data was transposed to `uint16_t` row-major format (MSB = leftmost pixel) to optimize for fast TFT rendering engines.
+* **Refinement:** These arrays were built and refined incrementally by dmxddrx with AI assistance. Every single glyph has been manually reviewed, corrected, or redrawn from scratch to guarantee clean geometry and eliminate rendering artifacts.
+
+## Usage
 
 Include `fonts.h` in your project and pass the desired font pointer directly to your text rendering function. 
 
