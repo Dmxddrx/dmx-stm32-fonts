@@ -23,3 +23,9 @@ Include `fonts.h` in your project and pass the desired font pointer directly to 
 
 // Example: Passing the 11x18 Inter Regular font pointer to a drawing function
 TFT_PrintFont(10, 20, TEXT_COLOR, BG_COLOR, &Font_Inter_Regular_11x18, "Hello World");
+```
+
+---
+
+### Stay Updated:
+Follow my future hardware projects and updates via the [ElectroScope Newsletter](https://www.linkedin.com/newsletters/electroscope-7370486267454791680/)
